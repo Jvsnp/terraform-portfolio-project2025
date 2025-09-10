@@ -1,5 +1,3 @@
-# terraform-portfolio-project2025
-
 /**
  * @type {import('next').NextConfig}
  */
