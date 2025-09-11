@@ -1,5 +1,5 @@
 name: my github actions workflow 
-on: 
+on:
   push:
   workflow_dispatch:
 
