@@ -1,5 +1,7 @@
 name: my github actions workflow 
-on: [push]
+on: 
+  push:
+  workflow_dispatch:
 
 jobs:
   testing-github-actions:
