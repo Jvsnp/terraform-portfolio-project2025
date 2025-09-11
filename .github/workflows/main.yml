@@ -1,0 +1,14 @@
+name: Simple Workflow
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World
+        run: echo "Hello, GitHub Actions!"
+      
+      - name: Show Repository
+        run: echo "Running in repository: ${{ github.repository }}"
